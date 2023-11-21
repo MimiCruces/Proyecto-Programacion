@@ -1,0 +1,58 @@
+.ventanaLogin {
+    text-align: center;
+    background-color: #AED6F1 ;
+    width: 400px; /*Establece el ancho del contenedor*/
+    /* Centra el contenedor horizontalmente */
+    margin-left: auto; 
+    margin-right: auto; 
+    border: white 10px double;
+    border-radius: 20px; /* establece un borde redondeado en las esquinas¨*/
+}
+
+.Contimg{
+    text-align: center;
+    background-color: #D7BDE2 ;
+    border-radius: 5px;
+    border-bottom: white 5px dotted; /* establace borde inferior, dotted con bolitas*/
+}
+img {
+    width: 100%; /* La imagen ocupará el 100% del ancho del contenedor padre */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción original */
+    max-width: 200px; /* Establece un ancho máximo para la imagen */
+}
+body{
+    text-align: center;
+    background-color: #ABEBC6;
+}
+/*Color del botón al acercar cursor*/
+button:hover {
+    background: #D2B4DE ;
+    color: white;
+}
+button{
+    background-color: #AED6F1;
+    border-radius: 5px;
+    border: 2px solid white;
+    /*modifica los bordes internos del boton, modifica el borde interno de la derecha e izq*/
+    padding: 8px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /*Cambia propiedades del texto*/
+    color:#1F618D;
+}
+input{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px; /*borde de abajo*/
+    text-align: center;
+    border-radius: 10px;
+    border:#AED6F1  ;
+}
+.imagenIcono{
+    max-width:  25px;
+}
+h1{
+    font-family: cursive;
+}
