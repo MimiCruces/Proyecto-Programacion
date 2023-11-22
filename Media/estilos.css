@@ -20,7 +20,7 @@ img {
     height: auto; /* La altura se ajusta automáticamente para mantener la proporción original */
     max-width: 200px; /* Establece un ancho máximo para la imagen */
 }
-body{
+.bodyLogin{
     text-align: center;
     background-color: #ABEBC6;
 }
@@ -56,3 +56,35 @@ input{
 h1{
     font-family: cursive;
 }
+a{
+    text-decoration: none;
+}
+a:hover {
+    border-bottom: 3px solid;
+    background: white;
+  }
+.bodyRegistro{
+    text-align: center;
+    background-color: #ffe5f0;
+}
+.colorazul{
+    background-color: #b2dafa;
+    text-align: center;
+    padding: 10px;
+}
+.fondoBlanco{
+    background-color: white;
+}
+.ventanaRegistro{
+    text-align: center;
+    background-color: #AED6F1 ;
+    width: 400px; /*Establece el ancho del contenedor*/
+    /* Centra el contenedor horizontalmente */
+    margin-left: auto; 
+    margin-right: auto; 
+    border: white 2px dashed;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px; 
+}
+
+  

@@ -6,7 +6,6 @@ USE `registro`;
 
 CREATE TABLE `usuario` (
   `nombre` text COLLATE utf8mb4_spanish2_ci NOT NULL,
-  `apellido` text COLLATE utf8mb4_spanish2_ci NOT NULL,
    `edad` int(11) NOT NULL,
   `direccion` text COLLATE utf8mb4_spanish2_ci NOT NULL,
   `telefono` varchar(15) COLLATE utf8mb4_spanish2_ci NOT NULL,
