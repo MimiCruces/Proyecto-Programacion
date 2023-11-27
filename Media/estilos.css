@@ -20,7 +20,7 @@ img {
     height: auto; /* La altura se ajusta automáticamente para mantener la proporción original */
     max-width: 200px; /* Establece un ancho máximo para la imagen */
 }
-.bodyLogin{
+.Login{
     text-align: center;
     background-color: #ABEBC6;
 }
@@ -63,7 +63,7 @@ a:hover {
     border-bottom: 3px solid;
     background: white;
   }
-.bodyRegistro{
+.Registro{
     text-align: center;
     background-color: #ffe5f0;
 }

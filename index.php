@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="Media/Imagenes/faviconBeagle.png" type="image/x-icon">
     <link rel="stylesheet" href="Media/estilos.css">
 </head>
-<body>
+<body class="Login">
    <form action="respuestaLogin.php" method="post">
     <div class="ventanaLogin">
         <div class="Contimg">
@@ -23,8 +23,9 @@
         <input type="password" name="contraseña"  placeholder="Ingresa Contraseña" required >
         <br><br>
         <button><b>INGRESAR</b></button>
-        <br> <br> <br>
-    
+        <br> <br>
+        <a href="Registro.php">Registrar nuevo usuario</a>
+        <br> <br><br>
     </div>
    </form>
 </body>

@@ -7,8 +7,8 @@
     <link rel="shortcut icon" href="Media/Imagenes/faviconBeagle.png" type="image/x-icon">
     <link rel="stylesheet" href="Media/estilos.css">
 </head>
-<body class="bodyRegistro">
-    <form action=""method="post">
+<body class="Registro">
+    <form action="respuestaRegistro.php"method="post">
         <div class="ventanaRegistro">
             <img src="Media/Beagle.gif" alt="">
             <div class="fondoBlanco">
