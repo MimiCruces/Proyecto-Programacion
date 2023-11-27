@@ -87,4 +87,41 @@ a:hover {
     border-bottom-right-radius: 30px; 
 }
 
-  
+table {
+    width: 100%;
+    border-collapse: collapse; /* Sin bordes entre celdas */
+}
+
+td {
+    padding: 20px;
+    border: white 30px solid;
+}
+
+/* Estilo para la celda izquierda */
+.izquierda {
+    background-color: wheat; /* Color de fondo para la izquierda */
+}
+
+/* Estilo para la celda derecha */
+.derecha {
+    background-color: #FFC7C7; /* Color de fondo para la derecha */
+}
+.imgAncho{
+    width: 200px; /* La imagen ocupará el 100% del ancho del contenedor padre */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción original */
+    max-width: 400px;
+}
+.texto1{
+    font-size: 4em;
+    text-align: center;
+    font-family: cursive;
+    background-color: #7071E8;
+    color: white;
+}
+.bodyEliminar{
+    text-align: center;
+    background-color: #7071E8;
+}
+
+
+
