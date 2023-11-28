@@ -25,8 +25,11 @@
         <button><b>INGRESAR</b></button>
         <br> <br>
         <a href="Registro.php">Registrar nuevo usuario</a>
-        <br> <br><br>
+        <br>
+        <a href="Eliminar.php">Eliminar usuario</a>
+        <br> <br>
+        <a href="Listar.php">Listar usuarios</a>
+        <br><br><br>
     </div>
    </form>
 </body>
-</html>

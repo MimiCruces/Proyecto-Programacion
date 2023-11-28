@@ -27,10 +27,10 @@
                 </td>
                 <td class="derecha">
                     <!-- Aquí puedes agregar tu formulario -->
-                    <form action="">
+                    <form action="" method="post">
                         <label for=""><img class="imagenIcono" src="Media/Imagenes/usuario.png" alt="usuario simbolo "  > </label> 
                         <br>
-                        <input type="text" name="usuario" placeholder="Ingrese Usuario" required>
+                        <input type="text" name="usuario_nombre" placeholder="Ingrese Usuario" required>
                         <br> <br> <br>
                         <label for=""><img class="imagenIcono" src="Media/Imagenes/contraseña.png" alt="contraseña simbolo"  > </label>
                         <br>
