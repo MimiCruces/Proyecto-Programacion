@@ -30,6 +30,8 @@
         <br> <br>
         <a href="Listar.php">Listar usuarios</a>
         <br><br><br>
+        <a href="Editar.php">Actualizar datos</a>
+        <br><br><br>
     </div>
    </form>
 </body>
