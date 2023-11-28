@@ -27,16 +27,16 @@
                 </td>
                 <td class="derecha">
                     <!-- Aquí puedes agregar tu formulario -->
-                    <form action="" method="post">
+                    <form action="respuestaEliminar.php" method="post">
                         <label for=""><img class="imagenIcono" src="Media/Imagenes/usuario.png" alt="usuario simbolo "  > </label> 
                         <br>
-                        <input type="text" name="usuario_nombre" placeholder="Ingrese Usuario" required>
+                        <input type="text" name="id" placeholder="Ingrese ID" required>
                         <br> <br> <br>
                         <label for=""><img class="imagenIcono" src="Media/Imagenes/contraseña.png" alt="contraseña simbolo"  > </label>
                         <br>
                         <input type="password" name="contraseña"  placeholder="Ingrese Contraseña" required >
                         <br><br> <br>
-                        <button><b>ELIMINAR</b></button>
+                        <button type="submit"><b>ELIMINAR</b></button>
                         <br> <br>
                     </form>
                 </td>

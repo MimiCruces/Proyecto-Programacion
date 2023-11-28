@@ -11,9 +11,7 @@ $result = $conexion -> query($buscarUsuario);
 $count = mysqli_num_rows($result);
 
 if($count ==1 ){
-    echo'El nombre se usuario ya a sido ocupado';
-    header('Location: ./Registro.php');
-    
+    echo'El nombre se usuario ya a sido ocupado';  
 }else{
     mysqli_query($conexion, "INSERT INTO usuario (
     nombre,
