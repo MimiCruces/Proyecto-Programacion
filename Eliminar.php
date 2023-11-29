@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eliminar</title>
+    <title>EliminarAmiBeagles</title>
     <!-- Metadatos -->
-    <meta name="author" content="Ing. Aaron Velasco" >
-    <meta name="description" content="Pagina web de test">
+    <meta name="author" content="Noemi Cruces Hernández" >
+    <meta name="description" content="Pagina web proyecto">
     <!-- CSS -->
     <link rel="stylesheet" href="media/estilos.css">
     <!-- FAVICON -->
     <link rel="shortcut icon" href="media/img/favicon.png" type="image/x-icon">
-  
+    <link rel="shortcut icon" href="Media/Imagenes/faviconBeagle.png" type="image/x-icon">
 </head>
 
 <body class="bodyEliminar">

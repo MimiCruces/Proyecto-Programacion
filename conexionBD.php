@@ -10,6 +10,6 @@ if ($conexion->connect_error) {
     echo"<h1>MySQL no te está dando permisos para ejecutar las consultas</h1>";
  die("La conexion falló " . $conexion->connect_error);
 } else {
-    echo"<h2 style='color: blue; text-align: center;'>tu conexión está funcionando.</h2>";
+    //echo"<h2 style='color: blue; text-align: center;'>tu conexión está funcionando.</h2>";
 }
 ?>

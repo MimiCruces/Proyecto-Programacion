@@ -79,6 +79,7 @@ a:hover {
 .colorBlanco{
     background-color: white;
     padding: 5px;
+    text-align: center;
 }
 .ventanaRegistro{
     text-align: center;
@@ -126,6 +127,20 @@ td {
 .bodyEliminar{
     text-align: center;
     background-color: #7071E8;
+}
+.respuesta {
+    text-align: center;
+    background-color: white  ;
+    width: 350px; /*Establece el ancho del contenedor*/
+    /* Centra el contenedor horizontalmente */
+    margin-left: auto; 
+    margin-right: auto; 
+    border: #ff7c39 10px dotted;
+    border-radius: 20px; /* establece un borde redondeado en las esquinas¨*/
+    padding: 20px;
+}
+.bodyrespuesta{
+    background-color: #ffd792;
 }
 
 

@@ -1,3 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listar Usuarios AmiBeagles</title>
+    <!-- Metadatos -->
+    <meta name="author" content="Noemi Cruces Hernández" >
+    <meta name="description" content="Pagina web proyecto">
+    <link rel="shortcut icon" href="Media/Imagenes/faviconBeagle.png" type="image/x-icon">
+    <link rel="stylesheet" href="Media/estilos.css">
+</head>
+<body>
+    
+</body>
+</html>l
 <?php
 require "conexionBD.php";
 mysqli_set_charset($conexion,'utf8');

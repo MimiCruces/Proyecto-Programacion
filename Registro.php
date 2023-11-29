@@ -6,6 +6,9 @@
     <title>Registro Ami Beagles</title>
     <link rel="shortcut icon" href="Media/Imagenes/faviconBeagle.png" type="image/x-icon">
     <link rel="stylesheet" href="Media/estilos.css">
+    <!-- Metadatos -->
+    <meta name="author" content="Noemi Cruces Hernández" >
+    <meta name="description" content="Pagina web proyecto">
 </head>
 <body class="Registro">
     <form action="respuestaRegistro.php"method="post">

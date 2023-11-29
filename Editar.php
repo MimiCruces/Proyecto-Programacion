@@ -6,6 +6,9 @@
     <title>Editar</title>
     <link rel="shortcut icon" href="Media/Imagenes/faviconBeagle.png" type="image/x-icon">
     <link rel="stylesheet" href="Media/estilos.css">
+    <!-- Metadatos -->
+    <meta name="author" content="Noemi Cruces Hernández" >
+    <meta name="description" content="Pagina web proyecto">
 </head>
 <body class="ventanaLogin">
    <form action="respuestaActualizar.php" method="post">
@@ -13,7 +16,7 @@
         <div class="fondoBlanco">
             <img src="Media/Imagenes/Panda_Actualizar.png" alt="panda escribiendo">
         </div>
-        <h1>🐾¡Actualizar datos!🐾</h1>
+        <h1>¡Actualizar datos!</h1>
         <label for=""><img class="imagenIcono" src="Media/Imagenes/usuario.png" alt="usuario simbolo "  > </label> 
         <br>
         <input type="text" name="usuario" placeholder="Ingrese Usuario" required>

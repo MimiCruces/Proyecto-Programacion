@@ -9,6 +9,11 @@
     <title>Actualiza datos</title>
     <link rel="shortcut icon" href="Media/Imagenes/faviconBeagle.png" type="image/x-icon">
     <link rel="stylesheet" href="Media/estilos.css">
+    <!-- Metadatos -->
+    <meta name="author" content="Noemi Cruces Hernández" >
+    <meta name="description" content="Pagina web proyecto">
+    <link rel="shortcut icon" href="Media/Imagenes/faviconBeagle.png" type="image/x-icon">
+    <link rel="stylesheet" href="Media/estilos.css">
 </head>
 <body class="Registro">
     <?php
