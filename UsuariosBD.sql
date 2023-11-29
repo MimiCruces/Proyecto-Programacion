@@ -1,9 +1,7 @@
 DROP SCHEMA IF EXISTS `registro`;
 
 CREATE SCHEMA IF NOT EXISTS  `registro` DEFAULT CHARACTER SET utf8 COLLATE utf8_spanish2_ci;
-
 USE `registro`;
-
 CREATE TABLE `usuario` (
   `nombre` text COLLATE utf8mb4_spanish2_ci NOT NULL,
    `edad` int(11) NOT NULL,
