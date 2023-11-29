@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,6 +29,15 @@
             <br> <br> <br>
         </div>
        </form>
+    <br><br>
+   <div class="colorBlanco">
+    <a href="Registro.php"><img class="imagenIcono" src="Media/Imagenes/icono_registrar.png" alt="icono de registro">Registrar</a>
+    <a href="Eliminar.php"><img class="imagenIcono" src="Media/Imagenes/icono_eliminar.png" alt="icono eliminar">Eliminar usuario</a>
+    <a href="Listar.php"><img class="imagenIcono" src="Media/Imagenes/icono_listar.png" alt="icono de listar">Listar usuarios</a>
+    <a href="Editar.php"><img class="imagenIcono" src="Media/Imagenes/icono_actualizar.png" alt="icno de actualizar">Actualizar datos</a>
+    <a  href="index.php"><img class="imagenIcono" src="Media/Imagenes/icono_inicio.png" alt="icono de inicio">Ir a página principal</a>
+    <br>
+   </div>
     
 </body>
 </html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,7 +26,21 @@ $resultado = $conexion->query($consulta_sql);
 $count = mysqli_num_rows($resultado); 
 $usuario = $_POST['usuario'];
 $password = $_POST['contraseña'];
+echo '<div class="colorBlanco">';
+echo '<a href="Listar.php"><img class="imagenIcono" src="Media/Imagenes/icono_regresar.png" alt="icono de regreso">Regresar</a>';
+echo '<a href="Registro.php"><img class="imagenIcono" src="Media/Imagenes/icono_registrar.png" alt="icono de registro">Registrar</a>';
+echo '<a href="Eliminar.php"><img class="imagenIcono" src="Media/Imagenes/icono_eliminar.png" alt="icono eliminar">Eliminar usuario</a>';
+echo '<a href="Editar.php"><img class="imagenIcono" src="Media/Imagenes/icono_actualizar.png" alt="icno de actualizar">Actualizar datos</a>';
+echo '<a href="index.php"><img class="imagenIcono" src="Media/Imagenes/icono_inicio.png" alt="icono de inicio">Ir a página principal</a>';
+echo '</div>';
+echo '<br>';
+echo '<br>';
 if ($usuario=="MimiC" && $password=="1902"){
+    echo '<div class="colorBlanco">';
+    echo "<h2>LISTA DE USUARIOS REGISTRADOS</h2>";
+    echo '</div>';
+    echo '<br>';
+echo '<br>';
     echo "<table border='2' >
     <tr>
         <th>ID</th>
@@ -42,6 +56,7 @@ if ($usuario=="MimiC" && $password=="1902"){
 
     if ( $count>0 ){
         //aqui se pintarian los registro de la DB
+      
         while( $row = mysqli_fetch_assoc($resultado)  ){
         echo "<tr>";
         echo"<td>". $row['id'] ."</td>";
@@ -53,7 +68,6 @@ if ($usuario=="MimiC" && $password=="1902"){
         echo"<td>". $row['nombre_usuario'] ."</td>";
         echo"<td>". $row['Fecha_Registro'] ."</td>";
         echo "</tr>";
-        
         }
         echo "</table>";
     }else{ 
@@ -67,13 +81,6 @@ if ($usuario=="MimiC" && $password=="1902"){
     echo '<br>';
     echo '<h2>🙃¡Acceso denegado!😿</h2>';
     echo '<br>';
-    echo '<div class="colorBlanco">';
-    echo '<a href="Eliminar.php"><img class="imagenIcono" src="Media/Imagenes/icono_regresar.png" alt="icono de regreso">Regresar</a>';
-    echo '</div>';
-    echo '<div class="colorBlanco">';
-    echo '<a href="index.php"><img class="imagenIcono" src="Media/Imagenes/icono_inicio.png" alt="icono de inicio">Ir a página principal</a>';
-    echo '</div>';
-    echo '</div>';
     echo '<br><br>';
 }
 ?>

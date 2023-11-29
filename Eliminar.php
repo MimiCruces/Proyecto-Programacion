@@ -16,16 +16,16 @@
 
 <body class="bodyEliminar">
     <div>
-        <table >
+        <table class="tableEliminar" >
             <tr>
                 <td colspan="2" class="texto1">Eliminar usuario</td>
             </tr>
             <tr>
-                <td class="izquierda">
+                <td class="tdEliminar izquierda">
                     <!-- Aquí puedes agregar tu imagen -->
                     <img class="imgAncho" src="Media/Imagenes/Beagle_Delete.png" alt="Descripción de la imagen">
                 </td>
-                <td class="derecha">
+                <td class="tdEliminar derecha">
                     <!-- Aquí puedes agregar tu formulario -->
                     <form action="respuestaEliminar.php" method="post">
                         <label for=""><img class="imagenIcono" src="Media/Imagenes/usuario.png" alt="usuario simbolo "  > </label> 

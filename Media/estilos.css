@@ -93,12 +93,12 @@ a:hover {
     border-bottom-right-radius: 30px; 
 }
 
-table {
+.tableEliminar {
     width: 100%;
     border-collapse: collapse; /* Sin bordes entre celdas */
 }
 
-td {
+.tdEliminar {
     padding: 20px;
     border: white 30px solid;
 }
@@ -139,12 +139,33 @@ td {
     border-radius: 20px; /* establece un borde redondeado en las esquinas¨*/
     padding: 20px;
 }
+.Ingreso{
+    font-family: cursive;
+    text-align: center;
+    background-color: white  ;
+    width: 350px; /*Establece el ancho del contenedor*/
+    /* Centra el contenedor horizontalmente */
+    margin-left: auto; 
+    margin-right: auto; 
+    border: #7f00b2 10px dotted;
+    border-radius: 20px; /* establece un borde redondeado en las esquinas¨*/
+    padding: 3px;
+}
 .bodyrespuesta{
     background-color: #ffd792;
 }
 .bodyRegistros{
 background-color: #D7BDE2 ;;
 }
-
+table{
+    width: 100%;
+    text-align: center;
+}
+.alinearIz{
+    text-align: left;
+    background-color: #AED6F1;
+    border-top: 5px double #7f00b2;
+    width: 100%; /*Establece el ancho del contenedor*/
+}
 
 
