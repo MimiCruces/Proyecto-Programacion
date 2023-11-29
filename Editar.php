@@ -1,4 +1,3 @@
-<?php
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -9,7 +8,7 @@
     <link rel="stylesheet" href="Media/estilos.css">
 </head>
 <body class="ventanaLogin">
-   <form action="respuestaLogin.php" method="post">
+   <form action="respuestaActualizar.php" method="post">
     <div class="izquierda">
         <div class="fondoBlanco">
             <img src="Media/Imagenes/Panda_Actualizar.png" alt="panda escribiendo">
@@ -29,4 +28,3 @@
    </form>
 </body>
 </html>
-?>
