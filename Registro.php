@@ -13,7 +13,7 @@
 <body class="Registro">
     <form action="respuestaRegistro.php"method="post">
         <div class="ventanaRegistro">
-            <img src="Media/Beagle.gif" alt="">
+            <img src="Media/Imagenes/Beagle.gif" alt="perrito moviendose">
             <div class="fondoBlanco">
                 <h3>Crea una nueva cuenta de AmiBeagles</h3>
             </div>

@@ -14,23 +14,23 @@
 </body>
 </html>
 <?php
-//conexion a la base datos
-include "conexionBD.php";
-mysqli_set_charset($conexion,'utf8');
-//declaracion de varibales para formulario
-$buscarUsuario = "SELECT * FROM usuario where nombre_usuario = '$_POST[usuario]'";
-$result = $conexion -> query($buscarUsuario);
-$count = mysqli_num_rows($result);
-if($count ==1 ){
-echo '<div class="respuesta">';
-echo '<br><br>';
-echo '<img src="Media/Imagenes/usuario_existente.png" alt="">';
-echo '<br>';
-echo "<h2>" . "El nombre de usuario: " . $_POST['usuario'] ." ya esta ocupado". "</h2>" . "\n\n";
-echo '<br>';
-echo '<a href="Registro.php"><img class="imagenIcono" src="Media/Imagenes/icono_regresar.png" alt="icono de regreso"> Regresar</a>';
-echo '<br><br>';
-echo '</div>';
+    //conexion a la base datos
+    include "conexionBD.php";
+    mysqli_set_charset($conexion,'utf8');
+    //declaracion de varibales para formulario
+    $buscarUsuario = "SELECT * FROM usuario where nombre_usuario = '$_POST[usuario]'";
+    $result = $conexion -> query($buscarUsuario);
+    $count = mysqli_num_rows($result);
+    if($count ==1 ){
+    echo '<div class="respuesta">';
+    echo '<br><br>';
+    echo '<img src="Media/Imagenes/usuario_existente.png" alt="">';
+    echo '<br>';
+    echo "<h2>" . "El nombre de usuario: " . $_POST['usuario'] ." ya esta ocupado". "</h2>" . "\n\n";
+    echo '<br>';
+    echo '<a href="Registro.php"><img class="imagenIcono" src="Media/Imagenes/icono_regresar.png" alt="icono de regreso"> Regresar</a>';
+    echo '<br><br>';
+    echo '</div>';
 }else{
     mysqli_query($conexion, "INSERT INTO usuario (
     nombre,
