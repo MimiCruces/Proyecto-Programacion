@@ -8,9 +8,8 @@
     <meta name="author" content="Noemi Cruces Hernández" >
     <meta name="description" content="Pagina web proyecto">
     <!-- CSS -->
-    <link rel="stylesheet" href="media/estilos.css">
+    <link rel="stylesheet" href="Media/estilos.css">
     <!-- FAVICON -->
-    <link rel="shortcut icon" href="media/img/favicon.png" type="image/x-icon">
     <link rel="shortcut icon" href="Media/Imagenes/faviconBeagle.png" type="image/x-icon">
 </head>
 
