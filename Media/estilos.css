@@ -167,5 +167,7 @@ table{
     border-top: 5px double #7f00b2;
     width: 100%; /*Establece el ancho del contenedor*/
 }
-
+input[readonly] {
+    background-color:#81c9fa; 
+  }
 

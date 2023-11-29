@@ -31,9 +31,29 @@
         $sql="UPDATE usuario set nombre='".$nombre."', edad='".$edad."',direccion='".$direccion."',telefono='".$telefono."',correo='".$correo."',nombre_usuario='".$usuario."', password='".$password."' where id='".$id."'";
         $resultado=mysqli_query($conexion,$sql);
         if ($resultado) {
-            echo " los datos se actualizaron";
+            echo '<div class="Ingreso">';
+            echo '<br><br>';
+            echo '<img src="Media/Imagenes/PandaActualizarC.png" alt="panda helado">';
+            echo '<br>';
+            echo '<h2>¡Los datos se actualizarón!</h2>';
+            echo '<br>';
+            echo '<div class="colorBlanco">';
+            echo '<a href="Editar.php"><img class="imagenIcono" src="Media/Imagenes/icono_regresar.png" alt="icono de regreso">Regresar</a>';
+            echo '</div>';
+            echo '<br>';
+            echo '</div>';
         } else {
-          echo  "no se pudo actualizar";
+            echo '<div class="Ingreso">';
+            echo '<br><br>';
+            echo '<img src="Media/Imagenes/Panda_Noactualizo.png" alt="panda no actualizo">';
+            echo '<br>';
+            echo '<h2>¡No se pudo actualizar!</h2>';
+            echo '<br>';
+            echo '<div class="colorBlanco">';
+            echo '<a href="Editar.php"><img class="imagenIcono" src="Media/Imagenes/icono_regresar.png" alt="icono de regreso">Regresar</a>';
+            echo '</div>';
+            echo '<br>';
+            echo '</div>';
         }
         mysqli_close($conexion);    
     }else{
@@ -57,7 +77,7 @@
         $id=$array['id'];
         echo '<form action="' . $_SERVER['PHP_SELF'] . '" method="post">
         <div class="ventanaRegistro">
-            <img src="Media/Imagenes/qoobee_Actualizar.png" alt="Qoobee">
+            <img src="Media/Imagenes/Panda_Actualizar.png" alt="panda escribiendo">
             <div class="fondoBlanco">
                 <h3>Actualiza tus datos</h3>
             </div>
@@ -77,7 +97,7 @@
             <input type="email" name="correo" required value="' . $correo . '">
             <br><br>
             <label for="">Usuario:</label>
-            <input type="text" name="usuario" required value="' . $usuario . '">
+            <input type="text" name="usuario" required value="' . $usuario . '"readonly>
             <br><br>
             <label for="">Contraseña:</label>
             <input type="password" name="contraseña" required value="' . $password . '">
@@ -85,10 +105,18 @@
             <input type="hidden" name="id" value="' . $id . '">
             <button type="submit" name="actualizar"><b>Actualizar</b></button>
             <br><br>
-            <a href="index.php">Regresar al inicio</a>
-            <br><br>
         </div>
     </form>';
+    echo '
+    <br><br>
+    <div class="colorBlanco">
+    <a href="Registro.php"><img class="imagenIcono" src="Media/Imagenes/icono_registrar.png" alt="icono de registro">Registrar</a>
+    <a href="Eliminar.php"><img class="imagenIcono" src="Media/Imagenes/icono_eliminar.png" alt="icono eliminar">Eliminar usuario</a>
+    <a href="Listar.php"><img class="imagenIcono" src="Media/Imagenes/icono_listar.png" alt="icono de listar">Listar usuarios</a>
+    <a href="Editar.php"><img class="imagenIcono" src="Media/Imagenes/icono_actualizar.png" alt="icno de actualizar">Actualizar datos</a>
+    <a href="index.php"><img class="imagenIcono" src="Media/Imagenes/icono_inicio.png" alt="icono de inicio">Ir a página principal</a>
+    </div>';
+
         } else{
             echo '<div class="Ingreso">';
             echo '<br><br>';
