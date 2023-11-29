@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Patrick Hand', cursive; 
+    src: url('./fuentes/PatrickHand-Regular.ttf');
+}
 .ventanaLogin {
     text-align: center;
     background-color: #AED6F1 ;
@@ -7,6 +11,7 @@
     margin-right: auto; 
     border: white 10px double;
     border-radius: 20px; /* establece un borde redondeado en las esquinas¨*/
+    font-family: 'Patrick Hand', cursive; 
 }
 
 .Contimg{
@@ -49,16 +54,18 @@ input{
     text-align: center;
     border-radius: 10px;
     border:#AED6F1  ;
+    font-family: 'Patrick Hand', cursive; 
 }
 .imagenIcono{
     max-width:  25px;
 }
-h1{
-    font-family: cursive;
+h1,h2,h3,h4,h6,h6{
+    font-family: 'Patrick Hand', cursive;
 }
 a{
     text-decoration: none;
     margin-left: 35px;
+    font-family: 'Patrick Hand', cursive;
 }
 a:hover {
     border-bottom: 3px solid;
@@ -120,7 +127,7 @@ a:hover {
 .texto1{
     font-size: 4em;
     text-align: center;
-    font-family: cursive;
+    font-family: 'Patrick Hand', cursive;
     background-color: #7071E8;
     color: white;
 }
