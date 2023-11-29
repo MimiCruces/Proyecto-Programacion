@@ -57,7 +57,8 @@ if($array['contar']>0){
         echo '<br><br>';
         echo '<img src="Media/Imagenes/Panda_Mal.png" alt="panda ingresar">';
         echo '<br>';
-        echo '<h2>🙃¡Credenciales incorrectas!😾</h2>';
+        echo '<h2>¡Credenciales incorrectas!😾🙃</h2>';
+        echo '<h2>😾🙃</h2>';
         echo "<h3>" . "Usuario: " . $_POST['usuario'] . "</h3>" ;
         echo "<h3>" . "password: " . $_POST['contraseña'] . "</h3>";
         echo '<br>';

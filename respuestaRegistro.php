@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Registro AmiBeagles</title>
     <link rel="shortcut icon" href="Media/Imagenes/faviconBeagle.png" type="image/x-icon">
     <link rel="stylesheet" href="Media/estilos.css">
     <!-- Metadatos -->

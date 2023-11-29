@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Actualiza datos</title>
+    <title>Actualiza datos AmiBeagles</title>
     <link rel="shortcut icon" href="Media/Imagenes/faviconBeagle.png" type="image/x-icon">
     <link rel="stylesheet" href="Media/estilos.css">
     <!-- Metadatos -->
@@ -35,7 +35,8 @@
             echo '<br><br>';
             echo '<img src="Media/Imagenes/PandaActualizarC.png" alt="panda helado">';
             echo '<br>';
-            echo '<h2>¡Los datos se actualizarón!</h2>';
+            echo '<h2>¡Los datos se actualizarón correctamente!</h2>';
+            echo '<h2>🤗💫</h2>';
             echo '<br>';
             echo '<div class="colorBlanco">';
             echo '<a href="Editar.php"><img class="imagenIcono" src="Media/Imagenes/icono_regresar.png" alt="icono de regreso">Regresar</a>';

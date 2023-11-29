@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EliminarAmiBeagles</title>
+    <title>Eliminar AmiBeagles</title>
     <!-- Metadatos -->
     <meta name="author" content="Noemi Cruces Hernández" >
     <meta name="description" content="Pagina web proyecto">
