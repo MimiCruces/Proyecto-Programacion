@@ -43,7 +43,9 @@
             </tr>
         </table>
     </div>
-    
-    
+    <br>
+    <div class="colorBlanco">
+    <a  href="index.php"><img class="imagenIcono" src="Media/Imagenes/icono_inicio.png" alt="icono de inicio">Ir a página principal</a>
+    </div>
 </body>
 </html>

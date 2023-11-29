@@ -22,12 +22,12 @@
         <br>
         <input type="password" name="contraseña"  placeholder="Ingrese Contraseña" required >
         <br><br>
-        <button><b>INGRESAR</b></button>
-        <br> <br>
+        <button type="submit"><b>INGRESAR</b></button>
+        <br> <br> <br>
     </div>
    </form>
    <br><br>
-   <div class="fondoBlanco">
+   <div class="colorBlanco">
     <a href="Registro.php"><img class="imagenIcono" src="Media/Imagenes/icono_registrar.png" alt="icono de registro">Registrar</a>
     <a href="Eliminar.php"><img class="imagenIcono" src="Media/Imagenes/icono_eliminar.png" alt="icono eliminar">Eliminar usuario</a>
     <a href="Listar.php"><img class="imagenIcono" src="Media/Imagenes/icono_listar.png" alt="icono de listar">Listar usuarios</a>

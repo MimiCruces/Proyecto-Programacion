@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro Ami Beagle</title>
+    <title>Registro Ami Beagles</title>
     <link rel="shortcut icon" href="Media/Imagenes/faviconBeagle.png" type="image/x-icon">
     <link rel="stylesheet" href="Media/estilos.css">
 </head>
@@ -35,9 +35,13 @@
             <label for=""><img class="imagenIcono" src="Media/Imagenes/contraseña.png" alt="icono de contraseña"></label>
             <input type="password" name="contraseña"placeholder="Contraseña" required>
             <br><br>
-            <button><b>Registrar</b></button>
+            <button type="submit"><b>Registrar</b></button>
             <br><br>
         </div>
     </form>
+    <br>
+    <div class="colorBlanco">
+    <a  href="index.php"><img class="imagenIcono" src="Media/Imagenes/icono_inicio.png" alt="icono de inicio">Ir a página principal</a>
+    </div>
 </body>
 </html>
